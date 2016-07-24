@@ -40,11 +40,16 @@ width: 100%;
     
     }
 @media (max-width: 920px){
-  .nav{
-    width: 45%;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    
+    .nav{
+    width: 100%;
+    text-align: center;
+    padding-top: 7pc;
   }
+    .nav li{
+        margin-right: 25px;
+        padding-left: 30px;
+    }
 
   .card{
     width: 75%;
@@ -56,6 +61,5 @@ width: 100%;
     height: auto;
   }
 }
-.nav{
-    width: 50%;
+
 }
