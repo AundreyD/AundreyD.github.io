@@ -5,6 +5,7 @@
 .nav{
     width: 35%;
     margin: 25px auto;
+    padding-left: 150px
 }
 .nav li{
     margin-top: -20px;
@@ -48,9 +49,9 @@ width: 100%;
   }
     .nav li{
         margin-right: 25px;
-        padding-left: 10px;
+        padding-left: 40px;
     }
-
+    
   .card{
     width: 75%;
     margin: 0 auto;
