@@ -48,8 +48,9 @@ width: 100%;
     padding-top: 7pc;
   }
     .nav li{
-        margin-right: 25px;
-        padding-left: 40px;
+        margin-left: -45px;
+        margin-right:2px;
+        
     }
     
   .card{
