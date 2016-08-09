@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <Title> Aundrey Drummond Web Portfolio</Title>
+    <Title>CSS Projects</Title>
     <link  rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400italic|Alegreya:400italic,900italic,400,900' rel='stylesheet' type='text/css'>
     <link  rel="stylesheet" href="css/style.css">
-    <link  rel="stylesheet" href="css/responsive.css">
+   
     <link  rel="stylesheet" href="css/animate.min.css">
     <link  rel="stylesheet" href="css/gallery.css">
+    <link  rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
   </head>
   <body class="animated bounceIn">
@@ -19,11 +20,11 @@
         </a>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="css.html">CSS</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="css.html" class="selected">CSS</a></li>
           <li><a href="bootstrap.html">Bootstrap</a></li>
           <li><a href="javascript.html">JavaScript</a></li>
-          <li><a href="jquery.html">jQuery</a></li>
+          <li><a href="jquery.html" >jQuery</a></li>
           <li><a href="ajax.html">Ajax</a></li>
           <li><a href="angular.html">Angular</a></li>
           <li><a href="php.html">PHP</a></li>
@@ -33,18 +34,15 @@
       </nav>
     </header>
     <div id="wrapper">
-      <section>
-        <a href="img/aundrey1.jpg">
-        <img src="img/aundrey1.jpg" alt="Photo of Aundrey Drummond" class="profile-photo"/></a>
-         <div class="aboutme">
-            <h3>About Me</h3>
-            <p>Hello, my name is Aundrey Drummond and this is my web portfolio. I've recently graduated with a B.S. degree in IT and looking for work at the moment. I'm a mostly self taught web developer and even though I don't have any professional experience I've completed numerous projects in my own time which are found here on my portfolio. 
-            </p>
-          </div>
-          <div class="technologies">
-              <h3>Technologies</h3>
-            <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Angular, AJAX, Git, mySQL, PHP, Laravel, Python, Java, Meteor, MongoDB, Responsive Design</p>
-          </div>
+      <section class="gallery">
+            <div class="img">
+              <a target="_blank" href="sites/ResponsiveTablelessCalendar/index.html">
+                <img src="img/thumbnail/responsive%20tableless%20calendar.png" alt="Responsive Calendar" width="300" height="200">
+              </a>
+              <div class="desc">Responsive Tableless Calendar</div>
+            </div>
+
+            
       </section>
       <footer>
        <a href="http://twitter.com/AundreyD"><img src ="img/icons/social-1_logo-twitter.png" alt="Twitter Logo" class="social"></a>

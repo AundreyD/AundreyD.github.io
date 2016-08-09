@@ -1,0 +1,113 @@
+@media screen and (max-width:680px) {
+  /*************************
+  UNIVERSAL
+  *************************/
+    nav{
+        width: 100%;
+    }
+    
+    .gallery > div{
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+  /*************************
+  HOME
+  *************************/
+    .aboutme{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .technologies{
+        width: 100%;
+        margin-top: 20px;
+    }
+  /*************************
+  PAGE: CONTACT
+  *************************/
+  
+  /*************************
+  TWO COLUMN LAYOUT
+  *************************/  
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width:40%;
+    float:right;
+  }
+  
+  /*************************
+  3 * 5 = 15 (2.5em around)
+  100% - 15% = 85%
+  85 / 3 = 28.33333
+  *************************/
+  
+  
+  /*************************
+  PAGE: PORTFOLIO/INDEX
+  *************************/
+   #gallery li {
+    width: 28.3333%;
+  }
+
+  
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+   
+
+  /*************************
+  PAGE: ABOUT
+  *************************/
+  .profile-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+}
+
+
+
+
+@media screen and (min-width: 660px){
+  /*************************
+  HEADER
+  *************************/
+  
+  nav {
+  background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 65%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 25%;
+    
+  }
+  
+  h1 {
+    font-size 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  }
+}
